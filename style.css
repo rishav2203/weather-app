@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Fira+Sans:wght@400;500&family=Poppins:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    overflow: hidden;
+    background-image: linear-gradient(to right, #89b0ae ,#bbd0ff);
+}
+
+
+/* Main Heading */
+
+.heading-title {
+    margin-top: 2%;
+    font-size: 2rem;
+    text-align: center;
+    color: #113a4d;
+}
+
+
+/* Container */
+
+.container {
+    margin-top: 1%;
+}
+
+
+/* Card */
+
+.card {
+    margin: 0 auto 90px;
+    height: 75vh;
+    background-color: black;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
+    padding: 15px;
+}
+
+
+/* Input Box */
+
+.input-box {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 20px 0;
+    font-size: 2.5rem;
+}
+
+.input-box input {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+
+/* Enter Button */
+
+.input-box button {
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    background: #c0c0c0;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+
+/* Card Image */
+
+.cardImage {
+    height: 57vh;
+    background-image: url("https://images.unsplash.com/photo-1592210454359-9043f067919b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VhdGhlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2%;
+}
+
+
+/* Weather Details */
+
+.img-des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+
+/* Current Date */
+
+.cardImage .img-des .dates {
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 2%;
+    color: black;
+    text-shadow: 0px 0px;
+}
+
+
+/* Weather Details */
+
+.cardImage .cityName {
+    font-size: 2rem;
+    margin-top: 8%;
+}
+
+.cardImage .temp {
+    font-family:"Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    font-size: 4rem;
+}
+
+
+/* Celsius */
+
+.celsius {
+    font-size: 2.5rem;
+}
+
+
+/* Weather Type and its Details  */
+
+.cardImage .weatherType {
+    font-size: 2rem;
+}
+
+.weather-details {
+    margin-top: 3%;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 2px 2px black;
+    color: white
+}
+
+.more-weather-details {
+    margin-top: 3%;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 2px 2px black;
+    color: white
+}
+
+
+/* Footer/ Credits  */
+
+.footer {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color:#ffffff;
+    color: #000000;
+}
+
+.footer .heart {
+    color: red;
+   
+}
